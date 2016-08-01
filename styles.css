@@ -1,3 +1,82 @@
 body {
-	background: blue;
+	background: #FFFFE0;
 }
+
+h1 {
+	font-family: sans-serif;
+	text-align: center;
+	border: solid;
+	min-width: 500px;
+	background-color: #F08080;
+}
+
+table {
+	min-width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	max-width: 500px;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+#plaza {
+	float: right;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+#history {
+	margin-left: 20px;
+	max-width: 500px;
+	min-width: 300px;
+	font-size: 18px;
+}
+
+#panoramic {
+	display: block;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+#sevillaimage {
+	background-image: url(http://graphicdesignjunction.com/wp-content/uploads/2011/03/background-pattern-design-65.jpg);
+	margin: 0 auto;
+}
+
+#visitsevilla {
+	width: 650px;
+	margin-left: 280px;
+	text-align: left;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+@media screen and (max-width: 1000px) {
+    #plaza {
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
